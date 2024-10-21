@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.ljuset{
+    border: solid 5px;
+    width: 230px;
+}
+
+.rött{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: rgb(127, 32, 32);
+    border-width: 10px;
+    margin: 10px;
+}
+
+.gult{
+    background-color: rgb(255, 255, 0);
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: rgb(196, 193, 11);
+    border-width: 10px;
+    margin: 10px;
+}
+
+.blå{
+    background-color: rgb(0, 123, 255);
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: rgb(11, 33, 196);
+    border-width: 10px;
+    margin: 10px;
+}
+
+.grönt{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: rgb(35, 78, 19);
+    border-width: 10px;
+    margin: 10px;
+}
+
+.box1{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    top: 50%;
+    background-color: tomato;
+}
+
+.box2{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left: 50%;
+    top: 50%;
+    background-color: rgb(255, 230, 71);
+}
+
+.box3{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    background-color: rgb(114, 255, 71);
+}
+
+.box4{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    left: 50%;
+    background-color: rgb(123, 71, 255);
+}
